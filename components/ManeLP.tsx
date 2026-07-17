@@ -154,10 +154,7 @@ export default function ManeLP({
               Request a consultation to discuss hair loss concerns with a licensed medical professional.
             </p>
             <div className="mane-hero-photo" style={{ position: 'relative', marginTop: 26, borderRadius: 12, overflow: 'hidden', minHeight: 330 }}>
-              <img src="/images/hero-clinic.png" alt="" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover' }} />
-              <img src="/images/dr-burka.png" alt="Dr. Douglas Burka" style={{
-                position: 'absolute', left: 0, bottom: 0, height: '100%', width: 'auto', objectFit: 'contain', objectPosition: 'bottom left',
-              }} />
+              <img src="/images/hero-clinic.png" alt="" style={{ position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top' }} />
               <div className="mane-hero-trust" style={{
                 position: 'absolute', right: 16, bottom: 16, background: WHITE, borderRadius: 10,
                 boxShadow: '0 8px 26px rgba(4,17,49,0.18)', padding: '14px 16px', maxWidth: 280,
