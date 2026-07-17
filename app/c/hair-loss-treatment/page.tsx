@@ -2,6 +2,8 @@ import type { Metadata } from 'next'
 import ManeLP from '@/components/ManeLP'
 
 export const metadata: Metadata = {
+  openGraph: { images: [{ url: "https://more.manehair.com/og/c-hair-loss-treatment.webp", width: 1200, height: 630, alt: "Hair loss treatment options at Mane Center for Hair Restoration" }] },
+  twitter: { card: "summary_large_image", images: ["https://more.manehair.com/og/c-hair-loss-treatment.webp"] },
   title: 'Hair Loss Treatment Options | Mane Center for Hair Restoration',
   robots: 'noindex, nofollow',
 }
